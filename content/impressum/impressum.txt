@@ -1,0 +1,21 @@
+Title: Impressum
+
+----
+
+Intro: 
+
+----
+
+Text: ## ProWo Gießen GmbH
+
+Lincolnstraße 13
+35394 Gießen
+Amtsgericht Gießen: HRB7253
+
+### GeschäftsführerInnen
+
+Andreas Babietz, Katharina Franz, Bettina Kowalsky, Diana Schwaeppe, Knut Werning, Heidrun Zado
+
+### Kontakt
+
+kontakt|at|prowo-giessen.de

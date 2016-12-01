@@ -11,8 +11,8 @@ fields:
     type:  text
     width: 3/4
 
-  year:
-    label: Year
+  schedule:
+    label: Schedule
     type:  text
     width: 1/4
 

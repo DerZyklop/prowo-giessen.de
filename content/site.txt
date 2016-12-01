@@ -1,4 +1,4 @@
-Title: Kirby Starterkit
+Title: ProWo Giessen
 
 ----
 
@@ -10,4 +10,4 @@ Description: This is Kirby's Starterkit.
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Copyright: © 2016–(date: Year) ProWo Gießen e.V.

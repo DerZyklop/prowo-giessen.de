@@ -8,9 +8,9 @@
       ?></p>
 
       <p class="footer-madewithkirby">
-        <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
+        <a href="/impressum">Impressum</a>
       </p>
-    
+
     </div>
   </footer>
 
