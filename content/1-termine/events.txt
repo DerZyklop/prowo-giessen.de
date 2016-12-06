@@ -3,3 +3,7 @@ Title: Termine
 ----
 
 Text: Wir übernehmen keine Garantie, dass diese Liste immer 100% aktuell ist. Bevor ihr das erste mal erscheint, meldet euch also besser mal kurz – z.B. bei kontakt|at|prowo-giessen.de.
+
+----
+
+Perpage: 0

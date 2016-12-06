@@ -1,29 +1,13 @@
-Title: Objekt
+Title: Die Wohnungen
 
 ----
 
-Text: ## Das Haus
+Coverimage:
 
-(image: hausneu.jpg)
+----
 
- Das Haus verfügt über eine Fläche von 1840 m² inklusive Dachgeschoss, ein bombensicherer Keller kommt noch dazu. Das Haus hat jetzt zwei Eingänge, zwei Treppenaufgänge an den Seiten und ein Grundstück von 4010 m².
-
-## Die Wohnungen
+Text: 
 
 Aus vorhanden 12 Wohnungen im Block 1704 wurden 20 Wohnungen in der Lincolnstraße 11 und 13. Unter den 20 Wohnungen gibt es auch eine Gemeinschaftswohnung im Erdgeschoss, die über eine Treppe zum Balkon zu erreichen ist. Fast alle Wohnungen haben Balkone vorgeständert bekommen. Um aus großen Wohnungen kleine zu machen, war es erforderlich, zwei neue Seitenaufgänge anzubauen. Im Dachgeschoss wird es vorerst nur zwei Balkone geben.
 
 Folgender Wohnraum ist zurzeit frei: zurzeit keiner.- trotzdem einfach mal anfragen: wir haben eine Warteliste!
-
-## Karte
-
-(image: karte.jpg)
-
-### Anschrift
-
-ProWo Gießen GmbH
-Lincolnstraße 11-13
-35394 Gießen
-
-----
-
-Perpage: 2
