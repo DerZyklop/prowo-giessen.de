@@ -1,0 +1,21 @@
+title: Project
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 2/4
+
+  schedule:
+    label: Schedule
+    type:  text
+    width: 1/2
+
+  text:
+    label: Text
+    type:  textarea
