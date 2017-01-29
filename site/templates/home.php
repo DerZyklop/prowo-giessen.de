@@ -18,9 +18,14 @@
 
       <div class="wrap wide">
         <h2>Termine</h2>
-        <?php #snippet('showcase', ['limit' => 3]) ?>
-        <?php snippet('showcase') ?>
-        <!-- <p class="projects-section-more"><a href="<?= page('projects')->url() ?>" class="btn">show all projects &hellip;</a></p> -->
+        <?php #snippet('showcase', ['items' => page('termine')->children()->visible()]) ?>
+        <?php
+          snippet(
+            'termine', [
+              'items' => page('termine')->children()->visible()
+            ]
+          )
+        ?>
       </div>
 
     </section>

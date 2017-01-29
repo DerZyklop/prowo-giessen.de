@@ -20,17 +20,18 @@ if(isset($limit)) $projects = $projects->limit($limit);
 
 ?>
 
-<ul class="showcase grid gutter-1">
+<ul class="termine flex">
 
   <?php foreach($projects as $project): ?>
 
-    <li class="showcase-item column">
-        <a href="<?= $project->url() ?>" class="showcase-link">
+    <li class="flex-6">
+        <a href="<?= $project->url() ?>">
           <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
-            <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
+            <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" />
           <?php endif ?>
-          <div class="showcase-caption">
-            <h3 class="showcase-title"><?= $project->title()->html() ?></h3>
+          <div>
+            <h3><?= $project->title()->html() ?></h3>
+            <h5><?= $project->schedule()->html() ?></h5>
           </div>
         </a>
     </li>
