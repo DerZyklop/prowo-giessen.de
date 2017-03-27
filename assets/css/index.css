@@ -630,7 +630,7 @@ ul.termine {
 }
 
 .termine > div {
-  margin-bottom: 1rem;
+  margin-bottom: 30px;
 }
 .termine a {
   display: block;
