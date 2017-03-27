@@ -4,7 +4,7 @@
 
     <header class="wrap">
       <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
+      <div class="introduction text">
         <?= $page->schedule() ?>
       </div>
       <hr />

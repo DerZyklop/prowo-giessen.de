@@ -16,3 +16,8 @@ fields:
     label: Text
     type:  textarea
     size:  large
+
+  weisheit:
+    label: Die Weisheit des Augenblicks
+    type:  textarea
+    size:  large

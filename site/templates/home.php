@@ -4,17 +4,18 @@
 
     <header class="wrap">
       <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
+      <div class="introduction text">
         <?= $page->intro()->kirbytext() ?>
       </div>
       <hr />
     </header>
 
-    <div class="text wrap">
-      <?= $page->text()->kirbytext() ?>
+    <div class="text wrap weisheit">
+      <h4>Die Weisheit des Augenblicks</h4>
+      <?= $page->weisheit()->kirbytext() ?>
     </div>
 
-    <section class="projects-section">
+    <section class="projects-section invert">
 
       <div class="wrap wide">
         <h2>Termine</h2>

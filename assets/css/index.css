@@ -167,6 +167,7 @@ h4 {
 
 h5 {
   font-size: 0.9em;
+  font-weight: normal;
 }
 h5:before {
   content: '➡';
@@ -187,13 +188,17 @@ a:hover, a:focus, a:active {
 
 /* Misc */
 hr {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 500;
   height: 1.5rem;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   color: #e56a2f;
+}
+
+.invert hr {
+  color: #f9f8f1;
 }
 
 hr::before {
@@ -212,9 +217,12 @@ hr::after {
   padding: 0 .25rem;
   top: -.25rem;
 }
+.invert hr::after {
+  background: #ef8039;
+}
 
 h1 + hr,
-.intro + hr {
+.introduction + hr {
   /* Shift a <hr> right after an `.intro`
      or <h1> block one line up. */
   margin-top: -1.5rem;
@@ -264,14 +272,14 @@ figcaption {
 
 /* -----  2.1 Kirbytext  ---------------------------------------------------- */
 
-.intro {
+.introduction {
   text-align: center;
   font-weight: 500;
   font-size: 1.125rem;
   margin-bottom: 3rem;
 }
 
-h1 + .intro {
+h1 + .introduction {
   margin-top: -2.25rem;
 }
 
@@ -414,7 +422,6 @@ h1 + .intro {
 }
 
 .wrap {
-  box-sizing: content-box;
   margin: 0 auto;
   padding-left: .75rem;
   padding-right: .75rem;
@@ -617,22 +624,34 @@ h1 + .intro {
 
 /* =====  Termine List  ==================================================== */
 
-ul.termine > li a {
-  background: rgba(0,0,0,0.1);
-  display: block;
-  padding: 0.5em;
-  margin-bottom: 0.5em;
-}
-ul.termine > li a div {
-  background: rgba(0,0,0,0.6);
-  margin: 0;
-  color: #fff;
-  padding: 0.5em;
-  opacity: 0.6;
+
+ul.termine {
+  align-items: stretch;
 }
 
-ul.termine > li a:hover div {
-  background: rgba(0,0,0,0.95);
+.termine > div {
+  margin-bottom: 1rem;
+}
+.termine a {
+  display: block;
+  background: rgba(0,0,0,0.1);
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border: none;
+  height: 100%;
+}
+.termine a div {
+  /*background: #ef8039;*/
+  /*background: rgba(0,0,0,0.1);*/
+  margin: 0;
+  /*color: #fff;*/
+  color: #23363d;
+  padding: 0.5em;
+  /*opacity: 0.6;*/
+}
+
+.termine a:hover {
+  background: rgba(0,0,0,0.2);
 }
 .termine h5 {
   margin-bottom: 0;
@@ -641,138 +660,6 @@ ul.termine > li a:hover div {
 .termine h3 {
   margin-bottom: 0.5em;
 }
-
-/* =====  3 Site Layout  ==================================================== */
-
-/* Flexbox [BEGIN] */
-
-.flex {
-  display: block;
-}
-.flex > * {
-  max-width: initial;
-}
-
-@media screen and (min-width: 1200px) {
-  .flex > * {
-    flex: 1 1 auto;
-    padding: 0 0.5rem;
-  }
-  .flex > .flex-1 {
-    flex-basis: 8.333%;
-    max-width: 8.333%;
-  }
-  .flex > .flex-2 {
-    flex-basis: 16.667%;
-    max-width: 16.667%;
-  }
-  .flex > .flex-3 {
-    flex-basis: 25%;
-    max-width: 25%;
-  }
-  .flex > .flex-4 {
-    flex-basis: 33.333%;
-    max-width: 33.333%;
-  }
-  .flex > .flex-5 {
-    flex-basis: 41.667%;
-    max-width: 41.667%;
-  }
-  .flex > .flex-6 {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-  .flex > .flex-7 {
-    flex-basis: 58.333%;
-    max-width: 58.333%;
-  }
-  .flex > .flex-8 {
-    flex-basis: 66.667%;
-    max-width: 66.667%;
-  }
-  .flex > .flex-9 {
-    flex-basis: 75%;
-    max-width: 75%;
-  }
-  .flex > .flex-10 {
-    flex-basis: 83.333%;
-    max-width: 83.333%;
-  }
-  .flex > .flex-11 {
-    flex-basis: 91.667%;
-    max-width: 91.667%;
-  }
-  .flex > .flex-12 {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-  .flex-1 {
-    flex: 1;
-  }
-  .flex-2 {
-    flex: 2;
-  }
-  .flex-3 {
-    flex: 3;
-  }
-  .flex-4 {
-    flex: 4;
-  }
-  .flex-5 {
-    flex: 5;
-  }
-  .flex-6 {
-    flex: 6;
-  }
-  .flex-7 {
-    flex: 7;
-  }
-  .flex-8 {
-    flex: 8;
-  }
-  .flex-9 {
-    flex: 9;
-  }
-  .flex-10 {
-    flex: 10;
-  }
-  .flex-11 {
-    flex: 11;
-  }
-  .flex-12 {
-    flex: 12;
-  }
-  .flex-start {
-    justify-content: flex-start;
-  }
-  .flex-end {
-    justify-content: flex-end;
-  }
-  .flex-center {
-    align-items: center;
-  }
-  .flex-baseline {
-    align-items: baseline;
-  }
-  .flex-end > *,
-  .flex-start > * {
-    flex: 0 1 auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  /*
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
-  */
-  }
-}
-
 
 
 /* -------- -*/
@@ -953,7 +840,6 @@ body {
 /* -----  4.1 Homepage  ----------------------------------------------------- */
 
 .projects-section {
-  background: #ef8039;
   margin-top: 3rem;
   padding-top: 2.25rem;
   padding-bottom: .75rem;
@@ -961,6 +847,10 @@ body {
 
 .projects-section-more {
   text-align: center;
+}
+
+.invert {
+  background: #ef8039;
 }
 
 /* ----- 4.2 Blog Article  -------------------------------------------------- */
@@ -1129,4 +1019,21 @@ body {
   .contact-twitter p:not(:first-of-type) {
     width: 33.33%;
   }
+}
+
+
+
+
+
+
+
+
+.weisheit {
+  text-align: center;
+}
+.weisheit h4 {
+  margin-bottom: 0.5em;
+}
+.weisheit p {
+  font-size: 0.9em;
 }

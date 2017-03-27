@@ -9,9 +9,12 @@
   <meta name="description" content="<?= $site->description()->html() ?>">
 
   <?= css('assets/css/index.css') ?>
+  <?= css('assets/css/bootstrap-grid.min.css') ?>
+  <!-- <?= css('assets/css/bootstrap.min.css') ?> -->
 
 </head>
 <body>
+
 
   <header class="header wrap wide" role="banner">
     <div class="grid">

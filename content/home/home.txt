@@ -2,12 +2,10 @@ Title: ProWo Giessen
 
 ----
 
-Intro: Ein Wohnprojekt im Verbund des Mietshäusersyndikates
+Intro: Ein Wohnprojekt im Verbund des [Mietshäusersyndikates](https://www.syndikat.org/de/)
 
 ----
 
-Text: 
-
-## Die Weisheit des Augenblicks
+Weisheit:
 
 Wer will, der findet Wege. Wer nicht will, der findet Gründe.

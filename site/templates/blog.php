@@ -12,7 +12,7 @@
       // https://getkirby.com/docs/developer-guide/advanced/controllers
       if($pagination->page() == 1):
       ?>
-        <div class="intro text">
+        <div class="introduction text">
           <?= $page->text()->kirbytext() ?>
         </div>
       <?php endif ?>

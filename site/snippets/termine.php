@@ -20,22 +20,27 @@ if(isset($limit)) $projects = $projects->limit($limit);
 
 ?>
 
-<ul class="termine flex">
-
+<div class="termine row">
+  <?php $i = $projects->count(); ?>
   <?php foreach($projects as $project): ?>
-
-    <li class="flex-6">
-        <a href="<?= $project->url() ?>">
-          <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
-            <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" />
-          <?php endif ?>
-          <div>
-            <h3><?= $project->title()->html() ?></h3>
-            <h5><?= $project->schedule()->html() ?></h5>
-          </div>
-        </a>
-    </li>
+    <?php $i-- ?>
+    <div class="<?php if ($i < 3) {
+      echo 'col-sm';
+    } else {
+      echo 'col-sm-4';
+    } ?>">
+      <a href="<?= $project->url() ?>"
+        >
+        <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
+          <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" />
+        <?php endif ?>
+        <div>
+          <h3><?= $project->title()->html() ?></h3>
+          <h5><?= $project->schedule()->html() ?></h5>
+        </div>
+      </a>
+    </div>
 
   <?php endforeach ?>
 
-</ul>
+</div>

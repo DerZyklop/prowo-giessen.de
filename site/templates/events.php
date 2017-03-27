@@ -12,7 +12,7 @@
       // https://getkirby.com/docs/developer-guide/advanced/controllers
       if($pagination->page() == 1):
       ?>
-        <div class="intro text">
+        <div class="introduction text">
           <?= $page->text()->kirbytext() ?>
         </div>
       <?php endif ?>
@@ -28,8 +28,8 @@
 
             <header class="article-header">
               <h2 class="article-title">
-<!--                 <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a> -->
-                <a href="<?= $article->url() ?>"><?= $article->title()->html() ?>
+                <!--                 <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a> -->
+                <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
               </h2>
               <h5 class="article-meta"><?= $article->schedule() ?></h5>
 
