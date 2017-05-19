@@ -20,27 +20,23 @@ if(isset($limit)) $projects = $projects->limit($limit);
 
 ?>
 
-<div class="termine row">
+<ul>
   <?php $i = $projects->count(); ?>
   <?php foreach($projects as $project): ?>
     <?php $i-- ?>
-    <div class="<?php if ($i < 3) {
-      echo 'col-sm';
-    } else {
-      echo 'col-sm-4';
-    } ?>">
-      <a href="<?= $project->url() ?>"
-        >
+    <li>
+      <a href="<?= $project->url() ?>" class="termin">
         <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
           <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" />
         <?php endif ?>
         <div>
-          <h3><?= $project->title()->html() ?></h3>
-          <h5><?= $project->schedule()->html() ?></h5>
+          <h3 class="m-0 float-left"><?= $project->title()->html() ?></h3>
+          <h5 class="m-0 float-right"><?= $project->schedule()->html() ?></h5>
+          <div class="clearit"></div>
         </div>
       </a>
-    </div>
+    </li>
 
   <?php endforeach ?>
 
-</div>
+</ul>

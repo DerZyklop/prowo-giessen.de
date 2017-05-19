@@ -65,7 +65,7 @@
 /* -----  1.1 Font Definitions  --------------------------------------------- */
 
 /* Montserrat */
-@font-face {
+/*@font-face {
   font-family: 'Montserrat';
   src: url(../fonts/montserrat-700.woff) format("woff");
   font-weight: 700;
@@ -77,10 +77,10 @@
   src: url(../fonts/montserrat-400.woff) format("woff");
   font-weight: 400;
   font-style: normal;
-}
+}*/
 
 /* Vesper Libre */
-@font-face {
+/*@font-face {
   font-family: 'Vesper Libre';
   src: url(../fonts/vesperlibre-400.woff) format("woff");
   font-weight: 400;
@@ -99,7 +99,7 @@
   src: url(../fonts/vesperlibre-700.woff) format("woff");
   font-weight: 700;
   font-style: normal;
-}
+}*/
 
 /* -----  1.2 Reset & Normalization  ---------------------------------------- */
 
@@ -139,7 +139,7 @@ p, ul, ol, figure, pre {
 
 /* Headings */
 h1, h2, h3 {
-  font-family: ChauPhilomeneOne-Regular, Helvetica, Arial, sans-serif;
+  font-family: 'Chau Philomene One', Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -169,11 +169,11 @@ h5 {
   font-size: 0.9em;
   font-weight: normal;
 }
-h5:before {
+/*h5:before {
   content: '➡';
   padding-right: 0.5em;
   font-size: 0.9em;
-}
+}*/
 
 /* Links */
 a {
@@ -354,13 +354,13 @@ h1 + .introduction {
   background: #e9e9e9;
   border-radius: 4px;
   box-shadow: 0 2px 0 #c9c7d4;
-  font-family: ChauPhilomeneOne-Regular, Helvetica, Arial, sans-serif;
+  font-family: 'Chau Philomene One', Helvetica, Arial, sans-serif;
   position: relative;
   bottom: 2px;
 }
 
 .text blockquote {
-  font-family: ChauPhilomeneOne-Regular, Helvetica, Arial, sans-serif;
+  font-family: 'Chau Philomene One', Helvetica, Arial, sans-serif;
   border-left: 2px solid #a8a5be;
   padding: .75rem;
   background: #fffffd;
@@ -378,7 +378,7 @@ h1 + .introduction {
   padding: .6em .75em;
   white-space: nowrap;
   font-size: .75em;
-  font-family: ChauPhilomeneOne-Regular, Helvetica, Arial, sans-serif;
+  font-family: 'Chau Philomene One', Helvetica, Arial, sans-serif;
   line-height: 1;
   font-weight: 400;
 }
@@ -633,11 +633,6 @@ ul.termine {
   margin-bottom: 30px;
 }
 .termine a {
-  display: block;
-  background: rgba(0,0,0,0.1);
-  padding: 0.5em;
-  margin-bottom: 0.5em;
-  border: none;
   height: 100%;
 }
 .termine a div {
@@ -661,6 +656,16 @@ ul.termine {
   margin-bottom: 0.5em;
 }
 
+.termin {
+  display: block;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+.termin:hover {
+  background: rgba(0,0,0,0.1);
+  color: #23363d;
+}
 
 /* -------- -*/
 
@@ -700,6 +705,7 @@ html {
 body {
   /* space for sticky footer */
   margin-bottom: 4.5rem;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 /* ----- 3.1  Header  ------------------------------------------------------- */
@@ -710,7 +716,7 @@ body {
 
 .branding {
   text-align: center;
-  font-family: ChauPhilomeneOne-Regular, Helvetica, Arial, sans-serif;
+  font-family: 'Chau Philomene One', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.95rem;
@@ -881,7 +887,7 @@ body {
 .article-more {
   font-size: 75%;
   text-transform: uppercase;
-  font-family: ChauPhilomeneOne-Regular, Helvetica, Arial, sans-serif;
+  font-family: 'Chau Philomene One', Helvetica, Arial, sans-serif;
   letter-spacing: .025em;
   white-space: nowrap;
   border-bottom: 2px solid #e56a2f;
@@ -1036,4 +1042,20 @@ body {
 }
 .weisheit p {
   font-size: 0.9em;
+}
+
+.text-white {
+  color: #fff;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.clearit {
+  clear: both;
+}
+.m-0 {
+  margin: 0;
 }
