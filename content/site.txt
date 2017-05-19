@@ -2,11 +2,11 @@ Title: ProWo Giessen
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: ProWo Gießen e.V.
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Ein Wohnprojekt des Mietsheuser Syndikates.
 
 ----
 
