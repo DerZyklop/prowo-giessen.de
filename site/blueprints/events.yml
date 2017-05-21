@@ -1,12 +1,12 @@
-title: Seite mit Unter-Kapiteln
+title: Events
 
 files: false
 
 pages:
-  template: default
+  template: event
 
 options:
-  template: event
+  template: false
   status: false
 
 fields:
