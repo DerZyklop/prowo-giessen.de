@@ -2,11 +2,11 @@ Title: Impressum
 
 ----
 
-Intro: 
+Intro:
 
 ----
 
-Text: ## ProWo Gießen GmbH
+Text: ## ProWo Gießen e.V.
 
 Lincolnstraße 13
 35394 Gießen

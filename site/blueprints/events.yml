@@ -6,7 +6,7 @@ pages:
   template: default
 
 options:
-  template: false
+  template: event
   status: false
 
 fields:
