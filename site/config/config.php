@@ -17,7 +17,7 @@ for more information: http://getkirby.com/license
 
 c::set('license', 'K2-PERSONAL-923eb708c66af4097249d4ff030c2384');
 c::set('debug', false);
-c::set('panel.install', false);
+c::set('panel.install', true);
 
 
 /*
