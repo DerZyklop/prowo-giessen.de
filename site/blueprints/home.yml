@@ -17,6 +17,10 @@ fields:
     type:  textarea
     size:  large
 
+  weisheitheadline:
+    label: Die Weisheit des Augenblicks – Überschrift
+    default: Die Weisheit des Augenblicks
+
   weisheit:
     label: Die Weisheit des Augenblicks
     type:  textarea

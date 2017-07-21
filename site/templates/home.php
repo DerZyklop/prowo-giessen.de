@@ -11,7 +11,7 @@
     </header>
 
     <div class="text wrap weisheit">
-      <h4>Die Weisheit des Augenblicks</h4>
+      <h4><?= $page->weisheitheadline()->kirbytext() ?></h4>
       <?= $page->weisheit()->kirbytext() ?>
     </div>
 

@@ -1,4 +1,4 @@
-Title: ProWo Giessen
+Title: ProWo (Projekt Wohnen) e. V.
 
 ----
 
@@ -6,6 +6,12 @@ Intro: Ein Wohnprojekt im Verbund des [Mietshäusersyndikates](https://www.syndi
 
 ----
 
-Weisheit:
+Weisheit: (link: http://prowo-giessen.de/wir-suchen-neue-bewohner-innen text: Wir suchen neue Bewohner:innen)
 
-Wer will, der findet Wege. Wer nicht will, der findet Gründe.
+----
+
+Text: f
+
+----
+
+Weisheitheadline: Neuigkeiten
