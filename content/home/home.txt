@@ -6,7 +6,7 @@ Intro: Ein Wohnprojekt im Verbund des [Mietshäusersyndikates](https://www.syndi
 
 ----
 
-Weisheit: (link: http://prowo-giessen.de/wir-suchen-neue-bewohner-innen text: Wir suchen neue Bewohner:innen)
+Weisheit: 
 
 ----
 
@@ -14,4 +14,4 @@ Text: f
 
 ----
 
-Weisheitheadline: Neuigkeiten
+Weisheitheadline: 
