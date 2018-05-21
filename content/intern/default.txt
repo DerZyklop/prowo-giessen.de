@@ -1,0 +1,13 @@
+Title: Intern
+
+----
+
+Text: 
+
+Für die Bewohner:innen unseres Hauses:
+
+<a href="http://192.168.178.100/">Prowothek</a>
+
+<a href="https://www.syndikat.org/de/interner_bereich/">Mietshäuser Syndikat Intern</a>
+
+<a href="https://intern.syndikat.org/projects">Redmine</a>
