@@ -8,7 +8,7 @@
       ?></p>
 
       <p class="footer-madewithkirby">
-        <a href="/impressum">Impressum</a>
+        <a href="/impressum">Impressum & Datenschutzerklärung</a>
       </p>
 
     </div>
