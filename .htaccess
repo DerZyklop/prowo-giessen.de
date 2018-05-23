@@ -1,4 +1,14 @@
-# Kirby .htaccess
+# Kirby .htaccess for Projects by DerZyklop
+# Source: https://gist.github.com/DerZyklop/609d1e0245c798ceccec7c7fba660041
+
+# Deflate Compression by MimeType
+<IfModule mod_deflate.c>
+ <FilesMatch "\.(js|jpg|jpeg|gif|png|css)$">
+  ExpiresActive on
+  ExpiresDefault "access plus 1 month"
+  SetOutputFilter DEFLATE
+ </FilesMatch>
+</IfModule>
 
 # rewrite rules
 <IfModule mod_rewrite.c>
@@ -15,14 +25,29 @@ RewriteEngine on
 # Set the RewriteBase to:
 #
 # RewriteBase /mysite
+#
+RewriteBase /
+
+# Redirect to https
+#RewriteCond %{SERVER_PORT} !^443$
+#RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Remove www.
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+
+# Add www.
+#RewriteCond %{HTTP_HOST} !^www. [NC]
+#RewriteRule ^(.*) http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Route all domains to http://domain.tld/
+#RewriteCond %{HTTP_HOST} !^domain\.com$ [NC]
+#RewriteRule ^(.*)$ http://domain.com/$1 [R=301,L]
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
 
 # block all files in the site folder from being accessed directly
-# except for requests to plugin assets files
-#RewriteRule ^assets/plugins/([a-zA-Z0-9\.\-_%=]+)/(.*)$ site/plugins/$1/assets/$2 [L,N]
-#RewriteCond $1 !^plugins/[a-zA-Z0-9\.\-_%=]+/assets/.*
 RewriteRule ^site/(.*) index.php [L]
 
 # block all files in the kirby folder from being accessed directly
