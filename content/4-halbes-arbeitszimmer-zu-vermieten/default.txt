@@ -2,8 +2,8 @@ Title: Zimmer frei!
 
 ----
 
-Text: 
+Text:
 
 Bei uns im Wohnprojekt ProWo in der Dulles Siedlung (Grünberger Straße stadtauswärts) in Gießen wird die Hälfte eines ~16qm Büros frei. Kosten ca. 116€. Das Büro ist ein WG-Zimmer in einer Privatwohnung. Miete beinhaltet also Mitnutzung der Gemeinschaftsflächen wie Bad und Küche. Die andere Hälfte des Zimmers nutze ich zum Programmieren etwa vier Werktage pro Woche. Zu diesen Zeiten freue ich mich über eine ruhige Arbeitsatmosphäre. Gelegentliches Telefonieren oder ähnliches ist kein Problem für mich.
 
-Das Mieten des halben Büros ist nicht an Mitarbeit am oder Mitgliedschaft im Wohnprojekt gebunden. Für Menschen, die an alternativen Wohnprojekten interessiert sind, ist dies aber eine gute Gelegenheit ein solches kennen zu lernen. Wer mehr über das Projekt erfahren möchte kann sich hier informieren: www.prowo-giessen.de
+Das Mieten des halben Büros ist nicht an Mitarbeit am oder Mitgliedschaft im Wohnprojekt gebunden. Für Menschen, die an alternativen Wohnprojekten interessiert sind, ist dies aber eine gute Gelegenheit ein solches kennen zu lernen. Wer mehr über das Projekt erfahren möchte kann sich hier informieren: <a href="//www.prowo-giessen.de">prowo-giessen.de</a>
