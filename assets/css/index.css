@@ -64,6 +64,26 @@
 
 /* -----  1.1 Font Definitions  --------------------------------------------- */
 
+@font-face {
+  font-family: 'Chau Philomene One';
+  src: url(../fonts/ChauPhilomeneOne-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url(../fonts/DroidSans-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Droid Sans';
+  src: url(../fonts/DroidSans.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Montserrat */
 /*@font-face {
   font-family: 'Montserrat';

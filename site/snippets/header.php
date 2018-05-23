@@ -13,7 +13,7 @@
   <?= css('assets/css/bootstrap-grid.min.css') ?>
   <!-- <?= css('assets/css/bootstrap.min.css') ?> -->
 
-  <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One|Droid+Sans:400,700" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One|Droid+Sans:400,700" rel="stylesheet"> -->
 
 </head>
 <body>
