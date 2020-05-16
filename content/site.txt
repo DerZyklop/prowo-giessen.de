@@ -1,4 +1,4 @@
-Title: ProWo Giessen
+Title: ProWo Gießen
 
 ----
 
@@ -6,8 +6,8 @@ Author: ProWo e.V.
 
 ----
 
-Description: Ein Wohnprojekt des Mietsheuser Syndikates.
+Description: Ein Wohnprojekt des Mietshäuser Syndikates.
 
 ----
 
-Copyright: © 2016–(date: Year) ProWo Gießen e.V.
+Copyright: © 2016–(date: Year) ProWo (Projekt Wohnen) e.V.
